@@ -5,4 +5,4 @@ def __init__(self, browser, url):
     self.url = url
 
 def open(self):
-    get(link = "http://selenium1py.pythonanywhere.com/")
+    self.browser.get(self.url)
